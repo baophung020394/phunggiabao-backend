@@ -2,15 +2,43 @@
 
 ## Setup
 
-1. `cd crude-server`
-2. `npm install`
-3. `npm run dev`
+1. Jump into crude folder
+
+```bash
+cd crude-server
+```
+
+2. Install packages
+
+```bash
+cd npm install
+```
+
+3. Run source code
+
+```bash
+npm run dev
+```
 
 ## Create file migration
 
-1. `npm run migrate:make`
-2. `npm run migrate:rollback`
-3. `npm run migrate:latest`
+1. Create file migration
+
+```bash
+npm run migrate:make
+```
+
+2. Rollback to reset database
+
+```bash
+npm run migrate:rollback
+```
+
+3. Run migration file
+
+```bash
+npm run migrate:latest
+```
 
 ## API postman
 
